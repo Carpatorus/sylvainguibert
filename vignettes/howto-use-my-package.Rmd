@@ -1,0 +1,23 @@
+---
+title: "howto-use-my-package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{howto-use-my-package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(sylvainguibert)
+```
+
+```{r}
+dire_bonjour("Sylvain")
+```
